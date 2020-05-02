@@ -1,0 +1,5 @@
+---
+# defaults file for openvpn
+
+openvpn_app: openvpn
+openvpn_desired_state: present
