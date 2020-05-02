@@ -1,0 +1,8 @@
+---
+# tasks file for openvpn - EL Family
+
+- name: "Installing {{ openvpn_app }} on EL based systems."
+  yum:
+    name: "{{ openvpn_app }}"
+    state: "{{ openvpn_desired_state }}"
+    update_cache: yes

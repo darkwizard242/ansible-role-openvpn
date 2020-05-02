@@ -1,0 +1,9 @@
+---
+# tasks file for openvpn - Debian Family
+
+- name: "Installing {{ openvpn_app }} on Debian based systems."
+  apt:
+    name: "{{ openvpn_app }}"
+    state: "{{ openvpn_desired_state }}"
+    force_apt_get: yes
+    update_cache: yes
