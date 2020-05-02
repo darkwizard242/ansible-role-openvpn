@@ -2,7 +2,7 @@
 
 # Ansible Role: openvpn
 
-Role to install (_by default_) `openvpn` package or uninstall (_if passed as var_) on **Ubuntu** and **CentOS** systems.
+Role to install (_by default_) [openvpn](https://openvpn.net/) package or uninstall (_if passed as var_) on **Debian** family and **EL** family systems.
 
 ## Requirements
 
