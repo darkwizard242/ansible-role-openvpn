@@ -11,12 +11,12 @@ def test_openvpn_package_installed(host):
 
 
 def test_openvpn_binary_exists(host):
-    assert host.file('/usr/bin/openvpn').exists
+    assert host.file('/usr/sbin/openvpn').exists
 
 
 def test_openvpn_binary_file(host):
-    assert host.file('/usr/bin/openvpn').is_file
+    assert host.file('/usr/sbin/openvpn').is_file
 
 
 def test_openvpn_binary_which(host):
-    assert host.check_output('which openvpn') == '/usr/bin/openvpn'
+    assert host.check_output('which openvpn') == '/usr/sbin/openvpn'
