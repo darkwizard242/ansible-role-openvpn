@@ -14,7 +14,7 @@ def test_openvpn_package_installed(host):
     """
     Tests if openvpn is installed
     """
-    assert host.package(openvpn).is_installed
+    assert host.package(PACKAGE).is_installed
 
 
 def test_openvpn_binary_exists(host):
