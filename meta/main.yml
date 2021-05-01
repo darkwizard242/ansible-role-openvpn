@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: openvpn
-  author: Ali Muhammad
+  author: darkwizard242
   description: Dynamically installs/uninstalls 'openvpn' package.
   company: none
   license: MIT
