@@ -21,10 +21,10 @@ openvpn_desired_state: present
 
 ### Variables table:
 
-Variable              | Value (default) | Description
---------------------- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------
-openvpn_app           | openvpn         | Defines the app to install i.e. **openvpn**
-openvpn_desired_state | present         | Defined to dynamically chose whether to install (i.e. either `present` or `latest`) or uninstall (i.e. `absent`) the package. Defaults to `present`.
+Variable              | Description
+--------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------
+openvpn_app           | Defines the app to install i.e. **openvpn**
+openvpn_desired_state | Defined to dynamically chose whether to install (i.e. either `present` or `latest`) or uninstall (i.e. `absent`) the package. Defaults to `present`.
 
 ## Dependencies
 
@@ -66,4 +66,4 @@ For customizing behavior of role (i.e. un-installation of **openvpn** package) i
 
 ## Author Information
 
-This role was created by [Ali Muhammad](https://www.linkedin.com/in/ali-muhammad-759791130/).
+This role was created by [Ali Muhammad](https://www.alimuhammad.dev/).
