@@ -2,7 +2,7 @@
 # tasks file for openvpn - EL Family
 
 - name: EL Family | Installing {{ openvpn_app }}
-  yum:
+  ansible.builtin.yum:
     name: "{{ openvpn_app }}"
     state: "{{ openvpn_desired_state }}"
     update_cache: yes
